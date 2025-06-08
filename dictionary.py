@@ -11,3 +11,4 @@ for key,value in siswa_siswa.items():#gunanya item adalah untuk mengambil dari n
 siswa_pertama={"nama":"revan kurniawan","tingal di":"perumahan komplek teguh permai duo"}
 for keyi,valuei in siswa_pertama.items():
     print(f"perkenalkan nama saya {keyi} dan saya tinggal di {valuei}")
+p="perkenalan"
