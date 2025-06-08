@@ -50,4 +50,15 @@ for hari,energi in enumerate(energi_harian, start=1):#jadi fungsi dari enumarate
     print(f"hari ke-{hari} energinya adalah {energi} kwh maka hasilnya adalah {energi >= batas_energi and true or false}")
 else:
     print("seluruh energi harian sudah memenuhi batas energi")
+    
+    
+nilai_siswa=[90,80,90,100,60,50,65,75]
+nilai_rata_rata= 75
+keberhasilan="lulus dengan nilai terbaik"
+kegagalan="tidak lulus dengan nilai yang kurang baik"
+for hari,nilai in enumerate(nilai_siswa, start=1):
+     print(f"{hari} nilai anda adalah {nilai} dan anda dinyatakan {nilai < nilai_rata_rata and kegagalan or keberhasilan} ")      
+else:
+    print("nilai anda semua gagal")
+        
  
